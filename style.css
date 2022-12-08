@@ -4,4 +4,130 @@
   box-sizing: border-box;
 }
 
+body {
+  background-image: url(./road-wallpaper.jpg);
+  background-size: 100% 100vh;
+  cursor: default;
+  user-select: none;
+}
 
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.form_container {
+  width: 30vw;
+  background-color: black;
+  opacity: 0.5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form_container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_container #form input:nth-child(1),
+.form_container #form input:nth-child(2) {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+}
+
+.check_box {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* .check_box #main_check_box {
+  height: 15px;
+  margin: 0px;
+
+} */
+
+form p {
+  font-size: 0.8rem;
+}
+
+form p a {
+  color: rgb(35, 50, 255);
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+form p a:hover {
+  transition: 0.4s;
+  color: rgb(15, 139, 255);
+}
+
+#form .button {
+  width: 100%;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form .button button {
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+
+#form .button button:hover {
+  background-color: white;
+  color: green;
+  transition: 0.4s;
+  transform: scale(96%);
+}
+
+.line {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.line p:nth-child(2) {
+  font-size: 0.9rem;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.social_media a:nth-child(2) {
+  color: rgb(35, 50, 255);
+  font-size: 0.7rem;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.social_media a:nth-child(2):hover {
+  transition: 0.4s;
+  color: rgb(1, 153, 255);
+}
